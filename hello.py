@@ -1,4 +1,4 @@
- print("Hello, World!")
+print("Hello, World!")
 
 s = input("s:")
 t = input("t:")
@@ -49,7 +49,7 @@ number = input("Number: ")
 
 with open("phonebook.csv", "a") as file:
 
-writer = csv.writer(file)
+  writer = csv.writer(file)
 writer.writerow([name, number])
 
 ## Second option
