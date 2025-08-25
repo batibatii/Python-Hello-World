@@ -62,4 +62,7 @@ with open("phonebook.csv", "a") as file:
     writer = csv.DictWriter(file, fieldnames=["name", "number"])
     writer.writerow({"name": name, "number": number})
 
+phrase = "You're off to Great Places"
 
+for char in phrase:
+   print(char, end=" ")
